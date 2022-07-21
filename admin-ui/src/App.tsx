@@ -32,7 +32,7 @@ const App = (): React.ReactElement => {
   return (
     <div className="App">
       <Admin
-        title={"My app"}
+        title={"API 1 Prisma"}
         dataProvider={dataProvider}
         authProvider={jwtAuthProvider}
         theme={theme}
